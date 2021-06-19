@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+.page_wrapper {
+    max-width: 1040px;
+    width: 100%;
+    min-width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.page_header {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 0px 80px;
+}
+
+.page_main {
+}
+
+.page_footer {
+    padding: 0px 80px;
+}
+
+.main_section {
+    padding: 0px calc(80px - 36px);
+}
+.main_section:first-child {
+    padding-top: 175px;
+}
+
+.main_section__light {
+    background-color: #ff3;
+    color: #000;
+    padding: 0px 0px 30px 0px;
+    padding-bottom: 0px;
+}
+
+.main_section__dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.bg_header {
+    background-image: url("./images/header.jpg");
+}
+
+.bg_spec {
+    background-image: url("./images/bg-spec.jpg");
+}
+
+.bg_spec1 {
+    background-image: url("./images/spec1.jpg");
+}
+
+.nav_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    align-items: start;
+}
+
+.nav_item {
+    padding: 5px 0px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav_item:hover {
+    background-color: rgb(87, 0, 0);
+}
+
+.logo {
+    background-image: url(./icon/helm.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
